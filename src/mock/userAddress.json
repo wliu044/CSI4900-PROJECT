@@ -1,0 +1,22 @@
+[{
+        "id": "1",
+        "isDefault": "0",
+        "consignee": "老六",
+        "userAddress": "广东省深圳市龙岗区龙翔大道8033号",
+        "phoneNum": "15784656428"
+    },
+    {
+        "id": "2",
+        "isDefault": "0",
+        "consignee": "老七",
+        "userAddress": "广西河池市东兰县山沟沟里面",
+        "phoneNum": "15711112333"
+    },
+    {
+        "id": "3",
+        "isDefault": "0",
+        "consignee": "老八",
+        "userAddress": "北京市海淀区双清路30号",
+        "phoneNum": "15121212121"
+    }
+]
