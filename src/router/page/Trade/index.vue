@@ -1,8 +1,8 @@
 <template>
   <div class="trade-container">
-    <h3 class="title">填写并核对订单信息</h3>
+    <h3 class="title">Fill in and check the order information</h3>
     <div class="content">
-      <h5 class="receive">收件人信息</h5>
+      <h5 class="receive">Recipient Information</h5>
 
       <div
         class="address clearFix"
@@ -16,27 +16,27 @@
         <p>
           <span class="s1">{{ info.userAddress }}</span>
           <span class="s2">{{ info.phoneNum }}</span>
-          <span class="s3" v-show="info.isDefault == 1">默认地址</span>
+          <span class="s3" v-show="info.isDefault == 1">Default Address</span>
         </p>
       </div>
 
       <div class="line"></div>
-      <h5 class="pay">支付方式</h5>
+      <h5 class="pay">Payment Method</h5>
       <div class="address clearFix">
-        <span class="username selected">在线支付</span>
-        <span class="username" style="margin-left: 5px">货到付款</span>
+        <span class="username selected">Online Payment</span>
+        <span class="username" style="margin-left: 5px">Payment on delivery</span>
       </div>
       <div class="line"></div>
-      <h5 class="pay">送货清单</h5>
+      <h5 class="pay">Delivery list</h5>
       <div class="way">
-        <h5>配送方式</h5>
+        <h5>Delivery method</h5>
         <div class="info clearFix">
-          <span class="s1">天天快递</span>
-          <p>配送时间：预计8月10日（周三）09:00-15:00送达</p>
+          <span class="s1">Daily Express</span>
+          <p>Delivery time: expected to be delivered on August 10 (Wednesday) 09:00-15:00</p>
         </div>
       </div>
       <div class="detail">
-        <h5>商品清单</h5>
+        <h5>Product List</h5>
         <ul
           class="list clearFix"
           v-for="(shopInfo, index) in userShopInfo"
@@ -49,57 +49,57 @@
             <p>
               {{ shopInfo.skuName }}
             </p>
-            <h4>7天无理由退货</h4>
+            <h4>7 days no reason to return the goods</h4>
           </li>
           <li>
-            <h3>￥{{ shopInfo.orderPrice }}.00</h3>
+            <h3>CAD{{ shopInfo.orderPrice }}.00</h3>
           </li>
           <li>X{{ shopInfo.skuNum }}</li>
-          <li>有货</li>
+          <li>Available</li>
         </ul>
       </div>
       <div class="bbs">
-        <h5>买家留言：</h5>
+        <h5>Buyer Message：</h5>
         <textarea
-          placeholder="建议留言前先与商家沟通确认"
+          placeholder="It is recommended to communicate with the merchant to confirm before leaving a message"
           class="remarks-cont"
           v-model="value"
         ></textarea>
       </div>
       <div class="line"></div>
       <div class="bill">
-        <h5>发票信息：</h5>
-        <div>普通发票（电子） 个人 明细</div>
-        <h5>使用优惠/抵用</h5>
+        <h5>Invoice Information：</h5>
+        <div>General Invoice (Electronic) Personal Details</div>
+        <h5>Use of offers/credits</h5>
       </div>
     </div>
     <div class="money clearFix">
       <ul>
         <li>
-          <b><i>{{userShopInfo.length}}</i>件商品，总商品金额</b>
-          <span>¥{{payMoney}}.00</span>
+          <b><i>{{userShopInfo.length}}</i>product, total product amount</b>
+          <span>CAD{{payMoney}}.00</span>
         </li>
         <li>
-          <b>返现：</b>
+          <b>Cashback：</b>
           <span>0.00</span>
         </li>
         <li>
-          <b>运费：</b>
+          <b>Shipping Fee：</b>
           <span>0.00</span>
         </li>
       </ul>
     </div>
     <div class="trade">
-      <div class="price">应付金额:　<span>¥{{payMoney}}.00</span></div>
+      <div class="price">Amount Payable:　<span>CAD{{payMoney}}.00</span></div>
       <div class="receiveInfo">
-        寄送至:
+        Send to :
         <span>{{ userSendInfo.userAddress }}</span>
-        收货人：<span>{{ userSendInfo.consignee }}</span>
+        Consignee：<span>{{ userSendInfo.consignee }}</span>
         <span>{{ userSendInfo.phoneNum }}</span>
       </div>
     </div>
     <div class="sub clearFix">
-      <a class="subBtn" @click="submit">提交订单</a>
+      <a class="subBtn" @click="submit">Submit order</a>
     </div>
   </div>
 </template>
