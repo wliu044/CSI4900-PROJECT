@@ -6,10 +6,10 @@
         <div class="loginform">
           <ul class="tab clearFix">
             <li>
-              <a href="##" style="border-right: 0;">扫描登录</a>
+              <a href="##" style="border-right: 0;">Scan Login</a>
             </li>
             <li>
-              <a href="##" class="current">账户登录</a>
+              <a href="##" class="current">Account Login</a>
             </li>
           </ul>
 
@@ -17,20 +17,20 @@
             <form>
               <div class="input-text clearFix">
                 <span></span>
-                <input type="text" placeholder="邮箱/用户名/手机号" v-model="phone" v-focus>
+                <input type="text" placeholder="Email/Username/Mobile phone number" v-model="phone" v-focus>
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
-                <input type="password" placeholder="请输入密码" v-model="password">
+                <input type="password" placeholder="Please enter your password" v-model="password">
               </div>
               <div class="setting clearFix">
                 <label class="checkbox inline">
                   <input name="m1" type="checkbox" value="2" checked="">
-                  自动登录
+                  Automatic Login
                 </label>
-                <span class="forget">忘记密码？</span>
+                <span class="forget">Forgot your password?</span>
               </div>
-              <button class="btn" @click="userLogin">登&nbsp;&nbsp;录</button>
+              <button class="btn" @click="userLogin">log&nbsp;&nbsp;in</button>
             </form>
 
             <div class="call clearFix">
@@ -40,7 +40,7 @@
                 <li><img src="./images/ali.png" alt=""></li>
                 <li><img src="./images/weixin.png" alt=""></li>
               </ul>
-              <router-link class="register" to="/register">立即注册</router-link>
+              <router-link class="register" to="/register">Register Now</router-link>
             </div>
           </div>
         </div>
@@ -49,17 +49,17 @@
     <!-- 底部 -->
     <div class="copyright">
       <ul>
-        <li>关于我们</li>
-        <li>联系我们</li>
-        <li>联系客服</li>
-        <li>商家入驻</li>
-        <li>营销中心</li>
-        <li>手机尚品汇</li>
-        <li>销售联盟</li>
-        <li>尚品汇社区</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Contact Customer Service</li>
+        <li>Merchant Onboarding</li>
+        <li>Marketing Center</li>
+        <li>Mobile尚品汇</li>
+        <li>Sales Affiliates</li>
+        <li>尚品汇Community</li>
       </ul>
-      <div class="address">地址：北京市昌平区宏福科技园综合楼6层</div>
-      <div class="beian">京ICP备19006430号
+      <div class="address">Address: 6th Floor, Ottawa Technology Park Complex</div>
+      <div class="beian">ICP19006430
       </div>
     </div>
   </div>
