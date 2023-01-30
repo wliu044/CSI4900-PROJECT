@@ -17,7 +17,7 @@ const actions={
             return 'ok'
           
         }else{
-            return Promise.reject(new Error('该账号已经被注册过了，换一个吧亲！'))
+            return Promise.reject(new Error('The account has already been registered, get another one!'))
         }
     }
 }
