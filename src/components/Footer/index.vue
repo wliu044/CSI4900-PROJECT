@@ -39,7 +39,7 @@
                             <li>After-Sales Policy</li>
                             <li>Price Protection</li>
                             <li>Refund Instructions</li>
-                            <li>Returns/Returns & Exchanges</li>
+                            <li>Returns/Returns and Exchanges</li>
                             <li>Order Cancellation</li>
                         </ul>
                     </div>
