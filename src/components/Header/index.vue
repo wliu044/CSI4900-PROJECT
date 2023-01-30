@@ -1,35 +1,35 @@
 <template>
   <header class="header">
-    <!-- 头部的第一行 -->
+    <!-- First line of the header -->
     <div class="top">
       <div class="container">
         <div class="loginList">
-          <p>欢迎您！</p>
+          <p>Welcome!</p>
           <p v-if="!userInfo.loginName">
-            <router-link to="/login">请登录</router-link>
+            <router-link to="/login">Please login</router-link>
             <span>|</span>
-            <router-link to="/register" class="register">免费注册</router-link>
+            <router-link to="/register" class="register">Free Registration</router-link>
           </p>
           <p v-else>
-            <a >尊敬的用户{{ userInfo.loginName }}</a>
+            <a >Dear user{{ userInfo.loginName }}</a>
              <span>|</span>
-            <a  @click="logout">退出登入</a>
+            <a  @click="logout">Logout</a>
           </p>
         </div>
         <div class="typeList">
-          <router-link to="/center">我的订单</router-link>
-          <!-- <router-link to="/ShopCart">我的购物车</router-link> -->
-          <a href="###">我的购物车</a>
-          <a href="###">我的尚品汇</a>
-          <a href="###">我的会员</a>
-          <a href="###">企业采购</a>
-          <a href="###">关注尚品汇</a>
-          <a href="###">合作招商</a>
-          <a href="###">商家后台</a>
+          <router-link to="/center">My Order</router-link>
+          <!-- <router-link to="/ShopCart">My Shopping Cart</router-link> -->
+          <a href="###">My Shopping Cart</a>
+          <a href="###">My 尚品汇</a>
+          <a href="###">My Membership</a>
+          <a href="###">Corporate Sourcing</a>
+          <a href="###">Follow尚品汇</a>
+          <a href="###">Cooperation Investment</a>
+          <a href="###">Merchant Back Office</a>
         </div>
       </div>
     </div>
-    <!--头部第二行 搜索区域-->
+    <!--Second row of the header Search area-->
     <div class="bottom">
       <h1 class="logoArea">
         <router-link class="logo" title="尚品汇" to="/home">
@@ -45,7 +45,7 @@
             v-model="keyword"
           />
           <button class="sui-btn btn-xlarge btn-danger" @click="goSearch">
-            搜索
+            Search
           </button>
         </form>
       </div>
