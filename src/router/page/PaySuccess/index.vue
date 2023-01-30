@@ -4,12 +4,12 @@
     <div class="success">
       <h3>
         <img src="./images/right.png" width="48" height="48">
-        恭喜您，支付成功啦！
+        Congratulations, your payment is successful!
       </h3>
       <div class="paydetail">
         <p class="button">
-          <router-link class="btn-look" to="/center">查看订单</router-link>
-          <router-link class="btn-goshop" to="/">继续购物</router-link>
+          <router-link class="btn-look" to="/center">View Orders</router-link>
+          <router-link class="btn-goshop" to="/">Continue Shopping</router-link>
         </p>
       </div>
     </div>
