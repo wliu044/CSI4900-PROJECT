@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button :disabled="pageNo == 1" @click="$emit('getPage',pageNo-1)">上一页</button>
+    <button :disabled="pageNo == 1" @click="$emit('getPage',pageNo-1)">Previous page</button>
     <button v-if="isShowBefore" @click="$emit('getPage',1)">1</button>
     <button v-if="pageNo > Math.ceil(continues/2)+1">...</button>
     <!-- 中间部分遍历计算的end数字,不想要的用v-show隐藏的掉，只留page大于计算出来的开始值 -->
@@ -14,8 +14,8 @@
    
     <button v-if="startNumEndNum.end < pageCount-1">...</button>
     <button v-if="startNumEndNum.end < pageCount" @click="$emit('getPage',pageCount)">{{ pageCount }}</button>
-    <button :disabled="pageNo == pageCount" @click="$emit('getPage',pageNo+1)">下一页</button>
-    <span>共 <strong style="color:orangered">{{ total }}</strong> 条相关信息</span>
+    <button :disabled="pageNo == pageCount" @click="$emit('getPage',pageNo+1)">Next page</button>
+    <span>A total of  <strong style="color:orangered">{{ total }}</strong> related information</span>
   </div>
 </template>
 
