@@ -2,96 +2,96 @@
   <div class="order-main">
     <div class="container">
       <div class="order-body">
-        <!--左侧列表-->
+        <!--Left side list-->
         <div class="order-left">
           <dl>
-            <dt><i>·</i> 订单中心</dt>
+            <dt><i>·</i> Order Center</dt>
             <dd>
-              <router-link to="/center/myOrder">我的订单</router-link>
+              <router-link to="/center/myOrder">My Orders</router-link>
             </dd>
             <dd>
-              <router-link to="/center/groupOrder">团购订单</router-link>
+              <router-link to="/center/groupOrder">Group purchase orders</router-link>
               
             </dd>
-            <dd>本地生活订单 </dd>
-            <dd>我的预售</dd>
-            <dd>评价晒单</dd>
-            <dd>取消订单记录</dd>
+            <dd>Local Life Orders </dd>
+            <dd>My Pre-Sales</dd>
+            <dd>Evaluation</dd>
+            <dd>Order cancellation record</dd>
           </dl>
           <dl>
-            <dt><i>·</i> 关注中心</dt>
-            <dd>关注的商品 </dd>
-            <dd>关注的店铺</dd>
-            <dd>关注的专辑 </dd>
-            <dd>关注的品牌</dd>
-            <dd>关注的活动 </dd>
-            <dd>浏览历史</dd>
+            <dt><i>·</i> Focus Center</dt>
+            <dd>Products of interest </dd>
+            <dd>Stores to follow</dd>
+            <dd>Albums to follow </dd>
+            <dd>Brands to Follow</dd>
+            <dd>Events of interest </dd>
+            <dd>Browse History</dd>
           </dl>
           <dl>
-            <dt><i>·</i> 特色业务</dt>
-            <dd>我的营业厅 </dd>
-            <dd>京东通信 </dd>
-            <dd>定期送 </dd>
-            <dd>京东代下单</dd>
-            <dd>我的回收单 </dd>
-            <dd>节能补贴</dd>
-            <dd>医药服务 </dd>
-            <dd>流量加油站 </dd>
-            <dd>黄金托管</dd>
+            <dt><i>·</i> Featured Business</dt>
+            <dd>My Business Office </dd>
+            <dd>Communication </dd>
+            <dd>Regular delivery </dd>
+            <dd>Order Placement</dd>
+            <dd>My Recycling List </dd>
+            <dd>Energy saving subsidy</dd>
+            <dd>Pharmaceutical Services </dd>
+            <dd>Mobile recharge station </dd>
+            <dd>Trusteeship</dd>
           </dl>
           <dl>
-            <dt><i>·</i> 客户服务</dt>
-            <dd>返修退换货 </dd>
-            <dd>价格保护 </dd>
-            <dd>意见建议 </dd>
-            <dd>购买咨询 </dd>
-            <dd>交易纠纷 </dd>
-            <dd>我的发票</dd>
+            <dt><i>·</i> Customer Service</dt>
+            <dd>Returns and Exchanges </dd>
+            <dd>Price Protection </dd>
+            <dd>Suggestions </dd>
+            <dd>Purchase Inquiry </dd>
+            <dd>Transaction disputes </dd>
+            <dd>My Invoice</dd>
           </dl>
           <dl>
-            <dt><i>·</i> 设置</dt>
-            <dd>个人信息 </dd>
-            <dd>收货地址 </dd>
+            <dt><i>·</i> Settings</dt>
+            <dd>Personal Information </dd>
+            <dd>Receiving Address </dd>
           </dl>
         </div>
-        <!-- 右侧内容 -->
+        <!-- Right side content -->
         <div class="order-right">
           <div class="order-content">
             <div class="title">
-              <h3>我的订单</h3>
+              <h3>My Orders</h3>
             </div>
             <div class="chosetype">
               <table>
                 <thead>
                   <tr>
-                    <th width="29%">商品</th>
-                    <th width="31%">订单详情</th>
-                    <th width="13%">收货人</th>
-                    <th>金额</th>
-                    <th>状态</th>
-                    <th>操作</th>
+                    <th width="29%">Products</th>
+                    <th width="31%">Order details</th>
+                    <th width="13%">Receiver</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Operation</th>
                   </tr>
                 </thead>
               </table>
             </div>
      <router-view></router-view>
           </div>
-          <!--猜你喜欢-->
+          <!--Guess what you like-->
           <div class="like">
-            <h4 class="kt">猜你喜欢</h4>
+            <h4 class="kt">Guess what you like</h4>
             <ul class="like-list">
               <li class="likeItem">
                 <div class="p-img">
                   <img src="./images/itemlike01.png" />
                 </div>
                 <div class="attr">
-                  <em>DELL戴尔Ins 15MR-7528SS 15英寸 银色 笔记本</em>
+                  <em>Dell Ins 15MR-7528SS 15-inch Silver Notebook</em>
                 </div>
                 <div class="price">
-                  <em>¥</em>
+                  <em>CAD</em>
                   <i>3699.00</i>
                 </div>
-                <div class="commit">已有6人评价
+                <div class="commit">6 people have rated
                 </div>
               </li>
               <li class="likeItem">
@@ -99,39 +99,39 @@
                   <img src="./images/itemlike02.png" />
                 </div>
                 <div class="attr">
-                  Apple苹果iPhone 6s/6s Plus 16G 64G 128G
+                  Apple phone 6s/6s Plus 16G 64G 128G
                 </div>
                 <div class="price">
-                  <em>¥</em>
+                  <em>CAD</em>
                   <i>4388.00</i>
                 </div>
-                <div class="commit">已有700人评价
+                <div class="commit">700 people have rated
                 </div>
               </li>
               <li class="likeItem">
                 <div class="p-img">
                   <img src="./images/itemlike03.png" />
                 </div>
-                <div class="attr">DELL戴尔Ins 15MR-7528SS 15英寸 银色 笔记本
+                <div class="attr">Dell Ins 15MR-7528SS 15-inch Silver Notebook
                 </div>
                 <div class="price">
-                  <em>¥</em>
+                  <em>CAD</em>
                   <i>4088.00</i>
                 </div>
-                <div class="commit">已有700人评价
+                <div class="commit">700 people have rated
                 </div>
               </li>
               <li class="likeItem">
                 <div class="p-img">
                   <img src="./images/itemlike04.png" />
                 </div>
-                <div class="attr">DELL戴尔Ins 15MR-7528SS 15英寸 银色 笔记本
+                <div class="attr">Dell Ins 15MR-7528SS 15-inch Silver Notebook
                 </div>
                 <div class="price">
-                  <em>¥</em>
+                  <em>CAD</em>
                   <i>4088.00</i>
                 </div>
-                <div class="commit">已有700人评价
+                <div class="commit">700 people have rated
                 </div>
               </li>
             </ul>
