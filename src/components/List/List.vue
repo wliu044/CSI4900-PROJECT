@@ -31,66 +31,66 @@
       <div class="right">
         <div class="news">
           <h4>
-            <em class="fl">尚品汇快报</em>
-            <span class="fr tip">更多 ></span>
+            <em class="fl">尚品汇Quick News</em>
+            <span class="fr tip">More ></span>
           </h4>
           <div class="clearix"></div>
           <ul class="news-list unstyled">
-            <li><span class="bold">[特惠]</span>备战开学季 全民半价购数码</li>
-            <li><span class="bold">[公告]</span>备战开学季 全民半价购数码</li>
-            <li><span class="bold">[特惠]</span>备战开学季 全民半价购数码</li>
-            <li><span class="bold">[公告]</span>备战开学季 全民半价购数码</li>
-            <li><span class="bold">[特惠]</span>备战开学季 全民半价购数码</li>
+            <li><span class="bold">[Special Offer]</span>Get ready for the school season with half-price digital products</li>
+            <li><span class="bold">[Announcement]</span>Get ready for the school season with half-price digital products</li>
+            <li><span class="bold">[Special Offer]</span>Get ready for the school season with half-price digital products</li>
+            <li><span class="bold">[Announcement]</span>Get ready for the school season with half-price digital products</li>
+            <li><span class="bold">[Special Offer]</span>Get ready for the school season with half-price digital products</li>
           </ul>
         </div>
         <ul class="lifeservices">
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">话费</span>
+            <span class="service-intro">Phone bill</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">机票</span>
+            <span class="service-intro">Air Tickets</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">电影票</span>
+            <span class="service-intro">Movie Tickets</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">游戏</span>
+            <span class="service-intro">Games</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">彩票</span>
+            <span class="service-intro">Lottery</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">加油站</span>
+            <span class="service-intro">Gas Station</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">酒店</span>
+            <span class="service-intro">Hotels</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">火车票</span>
+            <span class="service-intro">Train Tickets</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">众筹</span>
+            <span class="service-intro">Crowdfunding</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">理财</span>
+            <span class="service-intro">Financial Management</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">礼品卡</span>
+            <span class="service-intro">Gift Cards</span>
           </li>
           <li class="life-item">
             <i class="list-item"></i>
-            <span class="service-intro">白条</span>
+            <span class="service-intro">White Stripes</span>
           </li>
         </ul>
         <div class="ads">
