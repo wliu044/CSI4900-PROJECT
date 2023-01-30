@@ -6,19 +6,19 @@
           <p class="img">
             <i></i>
           </p>
-          <p class="text">热卖排行</p>
+          <p class="text">Top sellers</p>
         </a>
         <a href="javascript:;">
           <p class="img">
             <i></i>
           </p>
-          <p class="text">特价排行</p>
+          <p class="text">Special Price Ranking</p>
         </a>
         <a href="javascript:;">
           <p class="img">
             <i></i>
           </p>
-          <p class="text">新品排行</p>
+          <p class="text">New Products Ranking</p>
         </a>
       </div>
     </div>
@@ -34,11 +34,11 @@
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >【Official price reduced by 1100】Apple iPhone 8 Plus 256GB silver
+                  Mobile 4G phones</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">Deposit: 100CAD</p>
             </div>
           </div>
           <div class="img-item">
@@ -50,11 +50,11 @@
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >【Official price reduced by 1100】Apple iPhone 8 Plus 256GB silver
+                  Mobile 4G phones</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">Deposit: 100CAD</p>
             </div>
           </div>
           <div class="img-item">
@@ -66,11 +66,11 @@
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >【Official price reduced by 1100】Apple iPhone 8 Plus 256GB silver
+                  Mobile 4G phones</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">Deposit: 100CAD</p>
             </div>
           </div>
           <div class="img-item">
@@ -82,11 +82,11 @@
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >【Official price reduced by 1100】Apple iPhone 8 Plus 256GB silver
+                  Mobile 4G phones</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">Deposit: 100CAD</p>
             </div>
           </div>
         </li>
