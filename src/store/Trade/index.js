@@ -7,7 +7,7 @@ const actions = {
         commit('GETUSERADDRESS',res.data)
         return 'ok'
        }else{
-        return Promise.reject(new Error('请求地址失败'))
+        return Promise.reject(new Error('Request address failure'))
        }
     },
     //虚拟地址请求
@@ -24,7 +24,7 @@ const actions = {
             commit('GETSHOPINFO',res.data)
             return 'ok'
            }else{
-            return Promise.reject(new Error('请求地址失败'))
+            return Promise.reject(new Error('Request address failure'))
            }
         },
     
