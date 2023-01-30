@@ -1,7 +1,7 @@
 <template>
   <div class="cart-complete-wrap">
     <div class="cart-complete">
-      <h3><i class="sui-icon icon-pc-right"></i>商品已成功加入购物车！</h3>
+      <h3><i class="sui-icon icon-pc-right"></i>The product has been successfully added to the shopping cart!</h3>
       <div class="goods">
         <div class="left-good">
           <div class="left-pic">
@@ -10,7 +10,7 @@
           <div class="right-info">
             <p class="title">{{ cartInfoList[0].skuName }}</p>
             <p class="attr">
-              {{ cartInfoList[0].skuName }} 数量：{{ cartInfoList[0].skuNum }}
+              {{ cartInfoList[0].skuName }} Quantity：{{ cartInfoList[0].skuNum }}
             </p>
           </div>
         </div>
@@ -18,9 +18,9 @@
           <router-link
             class="sui-btn btn-xlarge"
             :to="`/detail/${cartInfoList[0].skuId}`"
-            >查看商品详情
+            >View product details
           </router-link>
-          <router-link to="/ShopCart">去购物车结算 > </router-link>
+          <router-link to="/ShopCart">Go to Cart Checkout > </router-link>
         </div>
       </div>
     </div>
