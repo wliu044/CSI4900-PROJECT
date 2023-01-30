@@ -10,7 +10,7 @@ const actions={
         context.commit('USERLOGIN',res.data)
         return 'ok'
       }else{
-        return Promise.reject(new Error('账号密码有误'))
+        return Promise.reject(new Error('The account password is wrong'))
       }
     },
     //登入返回的用户信息
@@ -20,7 +20,7 @@ const actions={
         commit('GETUSERINFO',res.data)
         return 'ok'
        }else{
-        return Promise.reject(new Error('返回用户信息失败'))
+        return Promise.reject(new Error('Failed to return user information'))
        }
 
     },
@@ -31,7 +31,7 @@ const actions={
         commit('LOGOUT')
         return 'ok'
       }else{
-        return Promise.reject(new Error('退出登入失败'))
+        return Promise.reject(new Error('Logout failed'))
       }
     }
     
