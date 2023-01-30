@@ -6,7 +6,7 @@
                 <thead>
                   <tr>
                     <th colspan="5">
-                      <span class="ordertitle">{{order.createTime}}　订单编号：{{order.outTradeNo}} <span
+                      <span class="ordertitle">{{order.createTime}}　Order Number：{{order.outTradeNo}} <span
                           class="pull-right delete"><img src="../images/delete.png"></span></span>
                     </th>
                   </tr>
@@ -18,14 +18,14 @@
                         <img v-lazy="orderDetail.imgUrl" style="width:82px;height:82px">
                         <a href="#" class="block-text">{{orderDetail.skuName}}</a>
                         <span>x{{orderDetail.skuNum}}</span>
-                        <a href="#" class="service">售后申请</a>
+                        <a href="#" class="service">After Sales Application</a>
                       </div>
                     </td>
                     <td :rowspan="order.orderDetailList.length" width="8%" class="center" v-if="index == 0">{{order.consignee}}</td>
                     <td :rowspan="order.orderDetailList.length" width="13%" class="center" v-if="index == 0">
                       <ul class="unstyled">
-                        <li>总金额¥{{order.totalAmount}}.00</li>
-                        <li>在线支付</li>
+                        <li>Total amount CAD{{order.totalAmount}}.00</li>
+                        <li>Online Payment</li>
 
                       </ul>
                     </td>
@@ -35,7 +35,7 @@
                     <td :rowspan="order.orderDetailList.length" width="13%" class="center" v-if="index == 0">
                       <ul class="unstyled">
                         <li>
-                          <a href="mycomment.html" target="_blank">评价|晒单</a>
+                          <a href="mycomment.html" target="_blank">Evaluation</a>
                         </li>
 
                       </ul>
