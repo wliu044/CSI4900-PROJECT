@@ -1,6 +1,6 @@
 <template>
   <div>
-    I am a group order
+    我是团购订单
   </div>
 </template>
 

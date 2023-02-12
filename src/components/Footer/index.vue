@@ -3,94 +3,93 @@
             <div class="footer-container">
                 <div class="footerList">
                     <div class="footerItem">
-                        <h4>Shopping Guides</h4>
+                        <h4>购物指南</h4>
                         <ul class="footerItemCon">
-                            <li>Shopping Process</li>
-                            <li>Membership Introduction</li>
-                            <li>Lifestyle Travel/Group purchase</li>
-                            <li>FAQ</li>
-                            <li>Shopping Guides</li>
+                            <li>购物流程</li>
+                            <li>会员介绍</li>
+                            <li>生活旅行/团购</li>
+                            <li>常见问题</li>
+                            <li>购物指南</li>
                         </ul>
 
                     </div>
                     <div class="footerItem">
-                        <h4>Delivery method</h4>
+                        <h4>配送方式</h4>
                         <ul class="footerItemCon">
-                            <li>Door-to-door pick-up</li>
-                            <li>211 limited time reach</li>
-                            <li>Delivery Service Inquiries</li>
-                            <li>Delivery fee charging standard</li>
-                            <li>Overseas Delivery</li>
+                            <li>上门自提</li>
+                            <li>211限时达</li>
+                            <li>配送服务查询</li>
+                            <li>配送费收取标准</li>
+                            <li>海外配送</li>
                         </ul>
                     </div>
                     <div class="footerItem">
-                        <h4>Payment Methods</h4>
+                        <h4>支付方式</h4>
                         <ul class="footerItemCon">
-                            <li>Payment on delivery</li>
-                            <li>Online Payment</li>
-                            <li>Installment Payment</li>
-                            <li>Post Office Money Transfer</li>
-                            <li>Corporate Transfer</li>
+                            <li>货到付款</li>
+                            <li>在线支付</li>
+                            <li>分期付款</li>
+                            <li>邮局汇款</li>
+                            <li>公司转账</li>
                         </ul>
                     </div>
                     <div class="footerItem">
-                        <h4>After-sales service</h4>
+                        <h4>售后服务</h4>
                         <ul class="footerItemCon">
-                            <li>After-Sales Policy</li>
-                            <li>Price Protection</li>
-                            <li>Refund Instructions</li>
-                            <li>Returns/Returns and Exchanges</li>
-                            <li>Order Cancellation</li>
+                            <li>售后政策</li>
+                            <li>价格保护</li>
+                            <li>退款说明</li>
+                            <li>返修/退换货</li>
+                            <li>取消订单</li>
                         </ul>
                     </div>
                     <div class="footerItem">
-                        <h4>Featured Services</h4>
+                        <h4>特色服务</h4>
                         <ul class="footerItemCon">
-                            <li>Treasure Island</li>
-                            <li>DIY Installation</li>
-                            <li>Extended Warranty Service</li>
-                            <li>尚品汇 E-Card</li>
-                            <li>尚品汇 Communication</li>
+                            <li>夺宝岛</li>
+                            <li>DIY装机</li>
+                            <li>延保服务</li>
+                            <li>尚品汇E卡</li>
+                            <li>尚品汇通信</li>
                         </ul>
                     </div>
                     <div class="footerItem">
-                        <h4>Help Center</h4>
-                        <!-- <img src="./images/wx_cz.jpg"> -->
+                        <h4>帮助中心</h4>
                     </div>
                 </div>
                 <div class="copyright">
                     <ul class="helpLink">
-                        <li>About Us
+                        <li>关于我们
                             <span class="space"></span>
                         </li>
-                        <li>Contact Us
+                        <li>联系我们
                             <span class="space"></span>
                         </li>
-                        <li>About Us
+                        <li>关于我们
                             <span class="space"></span>
                         </li>
-                        <li>Merchant Onboarding
+                        <li>商家入驻
                             <span class="space"></span>
                         </li>
-                        <li>Marketing Center
+                        <li>营销中心
                             <span class="space"></span>
                         </li>
-                        <li>Friendly Links
+                        <li>友情链接
                             <span class="space"></span>
                         </li>
-                        <li>About Us
+                        <li>关于我们
                             <span class="space"></span>
                         </li>
-                        <li>Marketing Center
+                        <li>营销中心
                             <span class="space"></span>
                         </li>
-                        <li>Friendly Links
+                        <li>友情链接
                             <span class="space"></span>
                         </li>
-                        <li>About Us</li>
+                        <li>关于我们</li>
                     </ul>
-                    <p>Address: 6F, Science and Technology Park Complex, Ottawa</p>
-                    <p>ICP:19006430</p>
+                    <p>地址：北京市昌平区宏福科技园综合楼6层</p>
+                    <p>京ICP备19006430号</p>
                 </div>
             </div>
         </div>

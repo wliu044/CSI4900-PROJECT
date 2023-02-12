@@ -31,31 +31,31 @@
           <div class="goodsDetail">
             <h3 class="InfoName">{{ skuInfo.skuName }}</h3>
             <p class="news">
-              Recommended to choose the following [mobile discount purchase], cell phone package all done, no need to change the number, and monthly spending back
+              推荐选择下方[移动优惠购],手机套餐齐搞定,不用换号,每月还有花费返
             </p>
             <div class="priceArea">
               <div class="priceArea1">
                 <div class="title">
-                  Pri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ce
+                  价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格
                 </div>
                 <div class="price">
-                  <i>CAD</i>
+                  <i>¥</i>
                   <em>{{ data.price }}</em>
-                  <span>Price reduction notice</span>
+                  <span>降价通知</span>
                 </div>
                 <div class="remark">
-                  <i>Cumulative Evaluation</i>
+                  <i>累计评价</i>
                   <em>65545</em>
                 </div>
               </div>
               <div class="priceArea2">
                 <div class="title">
-                  <i>Prom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;otion</i>
+                  <i>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</i>
                 </div>
                 <div class="fixWidth">
-                  <i class="red-bg">buy at an increased price</i>
+                  <i class="red-bg">加价购</i>
                   <em class="t-gray"
-                    >Add $20.00 for 999.00, or $30.00 for 1999.00, or $40.00 for 2999.00 to redeem hot items in the shopping cart</em
+                    >满999.00另加20.00元，或满1999.00另加30.00元，或满2999.00另加40.00元，即可在购物车换购热销商品</em
                   >
                 </div>
               </div>
@@ -63,15 +63,15 @@
             <div class="support">
               <div class="supportArea">
                 <div class="title">
-                  Sup&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port
+                  支&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;持
                 </div>
                 <div class="fixWidth">
-                  Trade in your old phone for a new one, recycle your unused phone, grab a 4G package at a great value, and buy a gift
+                  以旧换新，闲置手机回收 4G套餐超值抢 礼品购
                 </div>
               </div>
               <div class="supportArea">
-                <div class="title">Delivery to</div>
-                <div class="fixWidth">Ottawa</div>
+                <div class="title">配 送 至</div>
+                <div class="fixWidth">广东省 深圳市 宝安区</div>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
                 >
               </div>
               <div class="add">
-                <a href="javascript:" @click="addShoppingCart(skuInfo)">Add to Cart</a>
+                <a href="javascript:" @click="addShoppingCart(skuInfo)">加入购物车</a>
               </div>
             </div>
           </div>
@@ -131,20 +131,20 @@
     <section class="product-detail">
       <aside class="aside">
         <div class="tabWraped">
-          <h4 class="active">Related Categories</h4>
-          <h4>Recommended Brands</h4>
+          <h4 class="active">相关分类</h4>
+          <h4>推荐品牌</h4>
         </div>
         <div class="tabContent">
           <div class="tab-pane active">
             <ul class="partList">
-              <li>Cell phone</li>
-              <li>Phone Cases</li>
-              <li>Memory Card</li>
-              <li>Iphone Accessories</li>
-              <li>Cell phone film</li>
-              <li>Cell phone headset</li>
-              <li>Mobile Power</li>
-              <li>Tablet</li>
+              <li>手机</li>
+              <li>手机壳</li>
+              <li>内存卡</li>
+              <li>Iphone配件</li>
+              <li>贴膜</li>
+              <li>手机耳机</li>
+              <li>移动电源</li>
+              <li>平板电脑</li>
             </ul>
             <ul class="goodsList">
               <li>
@@ -152,13 +152,13 @@
                   <div class="p-img">
                     <img src="./images/part01.png" />
                   </div>
-                  <div class="attr">Apple iPhone 6s (A1699)</div>
+                  <div class="attr">Apple苹果iPhone 6s (A1699)</div>
                   <div class="price">
-                    <em>CAD</em>
+                    <em>¥</em>
                     <i>6088.00</i>
                   </div>
                   <div class="operate">
-                    <a href="javascript:void(0);">Add to Cart</a>
+                    <a href="javascript:void(0);">加入购物车</a>
                   </div>
                 </div>
               </li>
@@ -168,16 +168,16 @@
                     <img src="./images/part02.png" />
                   </div>
                   <div class="attr">
-                    <em>Apple iPhone 6s (A1699)</em>
+                    <em>Apple苹果iPhone 6s (A1699)</em>
                   </div>
                   <div class="price">
                     <strong>
-                      <em>CAD</em>
+                      <em>¥</em>
                       <i>6088.00</i>
                     </strong>
                   </div>
                   <div class="operate">
-                    <a href="javascript:void(0);">Add to Cart</a>
+                    <a href="javascript:void(0);">加入购物车</a>
                   </div>
                 </div>
               </li>
@@ -187,16 +187,16 @@
                     <img src="./images/part03.png" />
                   </div>
                   <div class="attr">
-                    <em>Apple iPhone 6s (A1699)</em>
+                    <em>Apple苹果iPhone 6s (A1699)</em>
                   </div>
                   <div class="price">
                     <strong>
-                      <em>CAD</em>
+                      <em>¥</em>
                       <i>6088.00</i>
                     </strong>
                   </div>
                   <div class="operate">
-                    <a href="javascript:void(0);">Add to Cart</a>
+                    <a href="javascript:void(0);">加入购物车</a>
                   </div>
                 </div>
               </li>
@@ -206,16 +206,16 @@
                     <img src="./images/part02.png" />
                   </div>
                   <div class="attr">
-                    <em>Apple iPhone 6s (A1699)</em>
+                    <em>Apple苹果iPhone 6s (A1699)</em>
                   </div>
                   <div class="price">
                     <strong>
-                      <em>CAD</em>
+                      <em>¥</em>
                       <i>6088.00</i>
                     </strong>
                   </div>
                   <div class="operate">
-                    <a href="javascript:void(0);">Add to Cart</a>
+                    <a href="javascript:void(0);">加入购物车</a>
                   </div>
                 </div>
               </li>
@@ -225,39 +225,39 @@
                     <img src="./images/part03.png" />
                   </div>
                   <div class="attr">
-                    <em>Apple iPhone 6s (A1699)</em>
+                    <em>Apple苹果iPhone 6s (A1699)</em>
                   </div>
                   <div class="price">
                     <strong>
-                      <em>CAD</em>
+                      <em>¥</em>
                       <i>6088.00</i>
                     </strong>
                   </div>
                   <div class="operate">
-                    <a href="javascript:void(0);">Add to Cart</a>
+                    <a href="javascript:void(0);">加入购物车</a>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
           <div class="tab-pane">
-            <p>Recommended Brands</p>
+            <p>推荐品牌</p>
           </div>
         </div>
       </aside>
       <div class="detail">
         <div class="fitting">
-          <h4 class="kt">Choose a match</h4>
+          <h4 class="kt">选择搭配</h4>
           <div class="good-suits">
             <div class="master">
               <img src="./images/l-m01.png" />
-              <p>CAD5299</p>
+              <p>￥5299</p>
               <i>+</i>
             </div>
             <ul class="suits">
               <li class="suitsItem">
                 <img src="./images/dp01.png" />
-                <p>Feless VR</p>
+                <p>Feless费勒斯VR</p>
                 <label>
                   <input type="checkbox" value="39" />
                   <span>39</span>
@@ -265,7 +265,7 @@
               </li>
               <li class="suitsItem">
                 <img src="./images/dp02.png" />
-                <p>Feless VR</p>
+                <p>Feless费勒斯VR</p>
                 <label>
                   <input type="checkbox" value="50" />
                   <span>50</span>
@@ -273,7 +273,7 @@
               </li>
               <li class="suitsItem">
                 <img src="./images/dp03.png" />
-                <p>Feless VR</p>
+                <p>Feless费勒斯VR</p>
                 <label>
                   <input type="checkbox" value="59" />
                   <span>59</span>
@@ -281,7 +281,7 @@
               </li>
               <li class="suitsItem">
                 <img src="./images/dp04.png" />
-                <p>Feless VR</p>
+                <p>Feless费勒斯VR</p>
                 <label>
                   <input type="checkbox" value="99" />
                   <span>99</span>
@@ -289,48 +289,48 @@
               </li>
             </ul>
             <div class="result">
-              <div class="num">0 items already purchased</div>
-              <div class="price-tit">Package Price</div>
-              <div class="price">5299</div>
-              <button class="addshopcar">Add to Cart</button>
+              <div class="num">已选购0件商品</div>
+              <div class="price-tit">套餐价</div>
+              <div class="price">￥5299</div>
+              <button class="addshopcar">加入购物车</button>
             </div>
           </div>
         </div>
         <div class="intro">
           <ul class="tab-wraped">
             <li class="active">
-              <a href="###"> Product introduction </a>
+              <a href="###"> 商品介绍 </a>
             </li>
             <li>
-              <a href="###"> Specifications and packaging </a>
+              <a href="###"> 规格与包装 </a>
             </li>
             <li>
-              <a href="###"> After-Sales Guarantee </a>
+              <a href="###"> 售后保障 </a>
             </li>
             <li>
-              <a href="###"> Product Reviews </a>
+              <a href="###"> 商品评价 </a>
             </li>
             <li>
-              <a href="###"> Mobile Community </a>
+              <a href="###"> 手机社区 </a>
             </li>
           </ul>
           <div class="tab-content">
             <div id="one" class="tab-pane active">
               <ul class="goods-intro">
-                <li>Resolution：1920*1080(FHD)</li>
-                <li>Rear camera: 12 megapixels</li>
-                <li>Front camera: 5 megapixel</li>
-                <li>Nucleus: Other</li>
-                <li>Frequency: subject to the information on the official website</li>
-                <li>Brand: Apple</li>
-                <li>Trade name: APPLE iPhone 6s Plus</li>
-                <li>Item No.: 1861098</li>
-                <li>Gross weight of goods: 0.51kg</li>
-                <li>Origin of goods: Mainland China</li>
-                <li>Hotspots: fingerprint recognition, Apple Pay, metal body, photo magic</li>
-                <li>System: Apple (IOS)）</li>
-                <li>Pixels: 10-16 million</li>
-                <li>Body memory: 64GB</li>
+                <li>分辨率：1920*1080(FHD)</li>
+                <li>后置摄像头：1200万像素</li>
+                <li>前置摄像头：500万像素</li>
+                <li>核 数：其他</li>
+                <li>频 率：以官网信息为准</li>
+                <li>品牌： Apple</li>
+                <li>商品名称：APPLEiPhone 6s Plus</li>
+                <li>商品编号：1861098</li>
+                <li>商品毛重：0.51kg</li>
+                <li>商品产地：中国大陆</li>
+                <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                <li>系统：苹果（IOS）</li>
+                <li>像素：1000-1600万</li>
+                <li>机身内存：64GB</li>
               </ul>
               <div class="intro-detail">
                 <img src="./images/intro01.png" />
@@ -339,16 +339,16 @@
               </div>
             </div>
             <div id="two" class="tab-pane">
-              <p>Specifications and packaging</p>
+              <p>规格与包装</p>
             </div>
             <div id="three" class="tab-pane">
-              <p>After-Sales Guarantee</p>
+              <p>售后保障</p>
             </div>
             <div id="four" class="tab-pane">
-              <p>Product Reviews</p>
+              <p>商品评价</p>
             </div>
             <div id="five" class="tab-pane">
-              <p>Mobile Community</p>
+              <p>手机社区</p>
             </div>
           </div>
         </div>

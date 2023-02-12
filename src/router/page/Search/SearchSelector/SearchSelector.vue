@@ -1,7 +1,7 @@
 <template>
   <div class="clearfix selector">
     <div class="type-wrap logo">
-      <div class="fl key brand">Brands</div>
+      <div class="fl key brand">品牌</div>
       <div class="value logos">
         <ul class="logo-list">
           <li 
@@ -13,8 +13,8 @@
         </ul>
       </div>
       <div class="ext">
-        <a href="javascript:void(0);" class="sui-btn">Multiple Choice</a>
-        <a href="javascript:void(0);">More</a>
+        <a href="javascript:void(0);" class="sui-btn">多选</a>
+        <a href="javascript:void(0);">更多</a>
       </div>
     </div>
     <!-- 商品属性 -->

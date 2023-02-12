@@ -4,6 +4,9 @@
   <List/>
   <Today/>
   <Rank/>
+  <Like/>
+  <Floor v-for="(list,index) in floorList" :key="list.id" :data="list"/>
+  <Brand/>
 </div>
 </template>
 
@@ -12,6 +15,9 @@ import TypeNav from '@/components/Type-nav/TypeNav.vue'
 import List from "@/components/List/List.vue";
 import Today from "@/components/Today-recommend/Tody.vue";
 import Rank from "@/components/Rank/Rank.vue";
+import Like from "@/components/Like/Like.vue";
+import Floor from "@/components/Floor/Floor.vue";
+import Brand from "@/components/Brand/Brand.vue";
 import { mapState } from 'vuex';
 
 export default {
@@ -22,6 +28,9 @@ export default {
     List,
     Today,
     Rank,
+    Like,
+    Floor,
+    Brand
   },
   
   mounted() {

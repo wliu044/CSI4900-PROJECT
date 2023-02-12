@@ -6,7 +6,7 @@
           @mouseleave="classifyIndex = -1"
           @mouseenter="enterIsShowClassification"
         >
-          <h2 class="all">All Product Categories</h2>
+          <h2 class="all">全部商品分类</h2>
           <transition name="transitionSort">
             <div class="sort" v-show="isShow">
               <div class="all-sort-list2" @click="goSearch">
@@ -24,7 +24,7 @@
                       >{{ c1.categoryName }}</a
                     >
                   </h3>
-                  <!-- Product secondary classification -->
+                  <!-- 商品二级分类 -->
                   <div
                     class="item-list clearfix"
                     :style="{
@@ -65,14 +65,14 @@
           </transition>
         </div>
         <nav class="nav">
-          <a href="###">Clothing City</a>
-          <a href="###">Beauty Gallery</a>
-          <a href="###">尚品汇SUPERMARKET</a>
-          <a href="###">Global Shopping</a>
-          <a href="###">Flash Sale</a>
-          <a href="###">Group purchase</a>
-          <a href="###">Interesting</a>
-          <a href="###">Spike Shopping</a>
+          <a href="###">服装城</a>
+          <a href="###">美妆馆</a>
+          <a href="###">尚品汇超市</a>
+          <a href="###">全球购</a>
+          <a href="###">闪购</a>
+          <a href="###">团购</a>
+          <a href="###">有趣</a>
+          <a href="###">秒杀</a>
         </nav>
       </div>
     </div>

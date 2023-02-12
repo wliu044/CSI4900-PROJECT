@@ -3,61 +3,61 @@
     <!-- 注册内容 -->
     <div class="register">
       <h3>
-        Register New User
-        <span class="go">I have an account,  <router-link to="/login" target="_blank">go log in</router-link>
+        注册新用户
+        <span class="go">我有账号，去 <router-link to="/login" target="_blank">登陆</router-link>
         </span>
       </h3>
       <!-- <div class="content">
-        <label>Cell phone number:</label>
-        <input type="text" placeholder="Please enter your cell phone number" v-model="phone" />
-        <span class="error-msg">Error message</span>
+        <label>手机号:</label>
+        <input type="text" placeholder="请输入你的手机号" v-model="phone" />
+        <span class="error-msg">错误提示信息</span>
       </div>
       <div class="content">
-        <label>Verification Code:</label>
-        <input type="text" placeholder="Please enter the verification code" :value="code" />
+        <label>验证码:</label>
+        <input type="text" placeholder="请输入验证码" :value="code" />
         <button
           style="height: 38px; width: 80px; margin-left: 5px"
           @click="getCode(phone)"
         >
-          Get verification code
+          获取验证码
         </button>
-        <span class="error-msg">Error message</span>
+        <span class="error-msg">错误提示信息</span>
       </div> -->
       <!-- <div class="content">
-        <label>Login Password:</label>
+        <label>登录密码:</label>
         <input
           type="password"
-          placeholder="Please enter your login password"
+          placeholder="请输入你的登录密码"
           v-model="password"
         />
-        <span class="error-msg">Error message</span>
+        <span class="error-msg">错误提示信息</span>
       </div>
       <div class="content">
-        <label>Confirm Password:</label>
-        <input type="password" placeholder="Please enter the confirmation password" v-model="password1" />
-        <span class="error-msg">Error message</span>
+        <label>确认密码:</label>
+        <input type="password" placeholder="请输入确认密码" v-model="password1" />
+        <span class="error-msg">错误提示信息</span>
       </div> -->
       <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
-        <el-form-item label="Cell phone number" prop="phone">
+        <el-form-item label="手机号" prop="phone">
           <el-input type="text" v-model="ruleForm.phone" autocomplete="off" style="width:270px"></el-input>
         </el-form-item>
-        <el-form-item label="Verification Code" prop="code">
+        <el-form-item label="验证码" prop="code">
           <el-input type="text" v-model="code" autocomplete="off" style="width:270px"></el-input>
           <button style="height: 38px; width: 80px; margin-left: 5px" @click="getCode" :disabled="inhibit" ref="btn">
-            Get verification code
+            获取验证码
           </button>
         </el-form-item>
-        <el-form-item label="Password" prop="password">
+        <el-form-item label="密码" prop="password">
           <el-input type="password" v-model="ruleForm.password" autocomplete="off" style="width:270px"></el-input>
         </el-form-item>
 
 
-        <el-form-item label="Confirm Password" prop="password1">
+        <el-form-item label="确认密码" prop="password1">
           <el-input type="password" v-model="ruleForm.password1" autocomplete="off" style="width:270px"></el-input>
         </el-form-item>
         <el-form-item prop="isAgree">
           <el-checkbox-group v-model="ruleForm.isAgree">
-            <el-checkbox label="Agree to the agreement and register for the User Agreement" style="color:orangered"></el-checkbox>
+            <el-checkbox label="同意协议并注册《用户协议》" style="color:orangered"></el-checkbox>
           </el-checkbox-group>
         </el-form-item>
       </el-form>
@@ -70,29 +70,29 @@
           :checked="isAgree"
           @click="isChecked"
         />
-        <span>Agree to the agreement and register for the User Agreement</span>
-        <span class="error-msg">Error message</span> -->
+        <span>同意协议并注册《尚品汇用户协议》</span>
+        <span class="error-msg">错误提示信息</span> -->
       </div>
       <div class="btn">
-        <el-button type="primary" @click="userRegister('ruleForm')">Complete registration</el-button>
-        <!-- <button @click="userRegister">Complete registration</button> -->
+        <el-button type="primary" @click="userRegister('ruleForm')">完成注册</el-button>
+        <!-- <button @click="userRegister">完成注册</button> -->
       </div>
     </div>
 
     <!-- 底部 -->
     <div class="copyright">
       <ul>
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>Contact Customer Service</li>
-        <li>Merchant Onboarding</li>
-        <li>Marketing Center</li>
-        <li>Mobile尚品汇</li>
-        <li>Sales Affiliates</li>
-        <li>尚品汇Community</li>
+        <li>关于我们</li>
+        <li>联系我们</li>
+        <li>联系客服</li>
+        <li>商家入驻</li>
+        <li>营销中心</li>
+        <li>手机尚品汇</li>
+        <li>销售联盟</li>
+        <li>尚品汇社区</li>
       </ul>
-      <div class="address">Address: 6th Floor, Ottawa Technology Park Complex</div>
-      <div class="beian">ICP19006430</div>
+      <div class="address">地址：北京市昌平区宏福科技园综合楼6层</div>
+      <div class="beian">京ICP备19006430号</div>
     </div>
   </div>
 </template>
@@ -105,19 +105,19 @@ export default {
     // 表单验证电话号码区
     var validatePhone = (rule, value, callback) => {
       if (!value) {
-        return callback(new Error('Cell phone number cannot be empty'));
+        return callback(new Error('手机号不能为空'));
 
       }
       setTimeout(() => {
         if (!Number.isInteger(value * 1)) {
-          callback(new Error('Please enter a numeric value'));
+          callback(new Error('请输入数字值'));
         } else {
 
           if (value.split('').length == 11) {
             callback();
             this.rules.isPhone = true
           } else {
-            callback(new Error('Wrong phone number'));
+            callback(new Error('错误的电话号码'));
 
           }
         }
@@ -126,13 +126,13 @@ export default {
     // 密码表单验证
     var validatePassword = (rule, value, callback) => {
       if (value === '') {
-        callback(new Error('Please enter your password'));
+        callback(new Error('请输入密码'));
       } else {
         if (value.split('').length <= 18 && value.split('').length >= 6) {
           this.$refs.ruleForm.validateField('checkPass');
           callback();
         } else {
-          callback(new Error('Please enter a 6~18 digit number or letter or special symbol'))
+          callback(new Error('请输入一个6~18位的数字或字母或特殊符号'))
         }
 
       }
@@ -140,9 +140,9 @@ export default {
     // 确认表单验证
     var validatePassword1 = (rule, value, callback) => {
       if (value === '') {
-        callback(new Error('Please enter your password again'));
+        callback(new Error('请再次输入密码'));
       } else if (value !== this.ruleForm.password) {
-        callback(new Error('The two input passwords do not match!'));
+        callback(new Error('两次输入密码不一致!'));
       } else {
         callback();
       }
@@ -152,7 +152,7 @@ export default {
       if (value) {
         callback()
       } else {
-        callback(new Error('Please be sure to check the box to agree to the user agreement'))
+        callback(new Error('请务必勾选同意用户协议'))
       }
     }
 
@@ -200,11 +200,11 @@ export default {
           var timer = setInterval(() => {
             this.inhibit = true
             time--
-            btn.innerHTML = 'Please wait' + time + 's'
+            btn.innerHTML = '请等待' + time + 's'
             if (time == 0) {
               this.inhibit = false
               clearInterval(timer)
-              btn.innerHTML = 'Get verification code'
+              btn.innerHTML = '获取验证码'
             }
           }, 1000)
         } catch (error) {
@@ -222,7 +222,7 @@ export default {
         if (allValidate && code) {
           try {
             await this.$store.dispatch("userRegister", data);
-            alert('Register successfully and go login now!')
+            alert('注册成功快去登入吧！！！')
             // 请求发成功后跳转路由到登入界面
             this.$router.push({
               path: '/login',
@@ -235,7 +235,7 @@ export default {
           }
 
         } else {
-          alert('You made a mistake, please check your input!')
+          alert('你输入有误，请检查你的输入！')
         }
       })
     },

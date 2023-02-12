@@ -5,43 +5,43 @@
         <h4 class="tit-txt">
           <span class="success-icon"></span>
           <span class="success-info"
-            >Order submitted successfully, please pay in time so that we can ship your order as soon as possible~~</span
+            >订单提交成功，请您及时付款，以便尽快为您发货~~</span
           >
         </h4>
         <div class="paymark">
           <span class="fl"
-            >Please complete payment<em class="orange time">within 4 hours</em
-            >of submitting your order, orders will be automatically cancelled after that time. Order number：<em>{{
+            >请您在提交订单<em class="orange time">4小时</em
+            >之内完成支付，超时订单会自动取消。订单号：<em>{{
               data.orderId
             }}</em></span
           >
           <span class="fr"
-            ><em class="lead">Amount Payable：</em
-            ><em class="orange money">CAD{{ data.totalFee }}</em></span
+            ><em class="lead">应付金额：</em
+            ><em class="orange money">￥{{ data.totalFee }}</em></span
           >
         </div>
       </div>
       <div class="checkout-info">
-        <h4>Important Notes：</h4>
+        <h4>重要说明：</h4>
         <ol>
           <li>
-            The merchant payment platform currently supports<span class="zfb">Paypal</span>Payment Method.
+            尚品汇商城支付平台目前支持<span class="zfb">支付宝</span>支付方式。
           </li>
-          <li>Other payment channels are being debugged, so stay tuned.</li>
-          <li>To ensure that the payment process for your purchase is completed smoothly, please save the following Paypal information.</li>
+          <li>其它支付渠道正在调试中，敬请期待。</li>
+          <li>为了保证您的购物支付流程顺利完成，请保存以下支付宝信息。</li>
         </ol>
         <h4>
-          Paypal account information:（Very important，<span class="save">Please save!!!</span>）
+          支付宝账户信息：（很重要，<span class="save">请保存！！！</span>）
         </h4>
         <ul>
-          <li>Payment account number: 11111111</li>
-          <li>Password：111111</li>
-          <li>Payment Password：111111</li>
+          <li>支付帐号：11111111</li>
+          <li>密码：111111</li>
+          <li>支付密码：111111</li>
         </ul>
       </div>
       <div class="checkout-steps">
         <div class="step-tit">
-          <h5>Payment Platforms</h5>
+          <h5>支付平台</h5>
         </div>
         <div class="step-cont">
           <ul class="payType">
@@ -53,7 +53,7 @@
 
         <div class="payshipInfo">
           <div class="step-tit">
-            <h5>Payment Internet Banking</h5>
+            <h5>支付网银</h5>
           </div>
           <div class="step-cont">
             <ul class="payType">
@@ -76,15 +76,15 @@
         <div class="hr"></div>
 
         <div class="submit">
-          <el-button type="text" class="btn" @click="open">Pay Now</el-button>
+          <el-button type="text" class="btn" @click="open">立即支付</el-button>
         </div>
         <div class="otherpay">
           <div class="step-tit">
-            <h5>Other payment methods</h5>
+            <h5>其他支付方式</h5>
           </div>
           <div class="step-cont">
-            <span><a href="weixinpay.html" target="_blank">WeChat Payment</a></span>
-            <span>UnionPay</span>
+            <span><a href="weixinpay.html" target="_blank">微信支付</a></span>
+            <span>中国银联</span>
           </div>
         </div>
       </div>
@@ -119,21 +119,21 @@ export default {
       if (res.data.code == 200) {
         this.data = res.data.data;
       } else {
-        alert("No duplicate orders can be submitted");
+        alert("不能重复提交订单");
       }
     },
     // 饿了么ui
     async open() {
       // 生成二维码
       let url = await QRCode.toDataURL(this.data.codeUrl);
-      this.$alert(`<img src=${url} />`, "WeChat Payment", {
+      this.$alert(`<img src=${url} />`, "微信支付", {
         dangerouslyUseHTMLString: true,
         showCancelButton: true,
         center: true,
         roundButton: true,
         showClose: false,
-        cancelButtonText: "Payment encounters problems",
-        confirmButtonText: "Already paid",
+        cancelButtonText: "支付遇见问题",
+        confirmButtonText: "已经支付了",
         beforeClose: (type, instance, done) => {
           // 如果用户点击取消支付就清除定时器,并关闭
           if (type == "cancel") {

@@ -1,14 +1,14 @@
 <template>
   <div class="cart">
-    <h4>All Products</h4>
+    <h4>全部商品</h4>
     <div class="cart-main">
       <div class="cart-th">
-        <div class="cart-th1">All</div>
-        <div class="cart-th2">Commodities</div>
-        <div class="cart-th3">Unit price</div>
-        <div class="cart-th4">Quantity</div>
-        <div class="cart-th5">Subtotal</div>
-        <div class="cart-th6">Operation</div>
+        <div class="cart-th1">全部</div>
+        <div class="cart-th2">商品</div>
+        <div class="cart-th3">单价（元）</div>
+        <div class="cart-th4">数量</div>
+        <div class="cart-th5">小计（元）</div>
+        <div class="cart-th6">操作</div>
       </div>
       <div class="cart-body">
         <ul
@@ -59,13 +59,13 @@
           </li>
           <li class="cart-list-con7">
             <a href="#none" class="sindelet" @click="deleteCartById(cartInfo)"
-              >Delete</a
+              >删除</a
             >
             <br />
-            <a href="#none">Move to Favorites</a>
+            <a href="#none">移到收藏</a>
           </li>
         </ul>
-        <h2 v-if="!cartInfoList.length" style="margin-left: 450px;">It's empty! Add what you want to your cart now!</h2>
+        <h2 v-if="!cartInfoList.length" style="margin-left: 450px;">空空如也！快将你心仪的东西加入购物车吧！</h2>
       </div>
     </div>
     <div class="cart-tool">
@@ -76,24 +76,24 @@
           :checked="isAllChecked && cartInfoList.length != 0"
           @change="changeAllChecked($event.target.checked)"
         />
-        <span>Select All</span>
+        <span>全选</span>
       </div>
       <div class="option">
-        <a @click="deleteAllChecked">Delete selected items</a>
-        <a href="#none">Move to my followers</a>
-        <a href="#none">Clear off-counter items</a>
+        <a @click="deleteAllChecked">删除选中的商品</a>
+        <a href="#none">移到我的关注</a>
+        <a href="#none">清除下柜商品</a>
       </div>
       <div class="money-box">
         <div class="chosed">
-          Selected <span>{{ selected }}</span
-          >Products
+          已选择 <span>{{ selected }}</span
+          >件商品
         </div>
         <div class="sumprice">
-          <em>Total price (including shipping) ：</em>
+          <em>总价（含运费） ：</em>
           <i class="summoney">{{ checkedSumMoney }}</i>
         </div>
         <div class="sumbtn">
-          <a class="sum-btn" @click="getAddress">Settlement</a>
+          <a class="sum-btn" @click="getAddress">结算</a>
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@ export default {
 
         this.$store.dispatch("getShopCartList");
       } catch (error) {
-        alert("Failure to modify data");
+        alert("修改数据失败");
       }
     }, 1000),
     // 删除购物车某一个物品的操作

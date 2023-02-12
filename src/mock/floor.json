@@ -1,58 +1,58 @@
 [{
         "id": "1",
-        "name": "Household appliances",
+        "name": "家用电器",
         "titleUl": [{
                 "id": "1",
-                "name": "Popular"
+                "name": "热门"
             },
             {
                 "id": "2",
-                "name": "Large Appliances"
+                "name": "大家电"
             },
             {
                 "id": "3",
-                "name": "Living Appliances"
+                "name": "生活电器"
             },
             {
                 "id": "4",
-                "name": "Kitchen appliances"
+                "name": "厨房电器"
             },
             {
                 "id": "5",
-                "name": "Seasonal appliances"
+                "name": "应季电器"
             },
             {
                 "id": "6",
-                "name": "Air / Water Purification"
+                "name": "空气/净水"
             },
             {
                 "id": "7",
-                "name": "High-end appliances"
+                "name": "高端电器"
             }
         ],
         "blockGaryUl": [{
                 "id": "1",
-                "name": "Energy saving subsidy"
+                "name": "节能补贴"
             },
             {
                 "id": "2",
-                "name": "4K TV"
+                "name": "4K电视"
             },
             {
                 "id": "3",
-                "name": "Air Purifier"
+                "name": "空气净化器"
             },
             {
                 "id": "4",
-                "name": "IH Rice Cooker"
+                "name": "IH电饭煲"
             },
             {
                 "id": "5",
-                "name": "Drum washing machine"
+                "name": "滚筒洗衣机"
             },
             {
                 "id": "6",
-                "name": "Electric water heater"
+                "name": "电热水器"
             }
         ],
         "floorBannerImg": [{
@@ -99,59 +99,59 @@
     },
     {
         "id": "2",
-        "name": "Mobile Communication",
+        "name": "手机通讯",
         "titleUl": [{
                 "id": "1",
-                "name": "Popular"
+                "name": "热门"
             },
             {
                 "id": "2",
-                "name": "Large Appliances"
+                "name": "大家电"
             },
             {
                 "id": "3",
-                "name": "Living Appliances"
+                "name": "生活电器"
             },
             {
                 "id": "4",
-                "name": "Kitchen appliances"
+                "name": "厨房电器"
             },
             {
                 "id": "5",
-                "name": "Seasonal appliances"
+                "name": "应季电器"
             },
             {
                 "id": "6",
-                "name": "Air / Water Purification"
+                "name": "空气/净水"
             },
             {
                 "id": "7",
-                "name": "High-end appliances"
+                "name": "高端电器"
             }
         ],
         "blockGaryUl": [{
                 "id": "1",
-                "name": "Energy saving subsidy"
+                "name": "节能补贴"
             },
             {
                 "id": "2",
-                "name": "4K TV"
+                "name": "4K电视"
             },
             {
                 "id": "3",
-                "name": "Air Purifier"
+                "name": "空气净化器"
             },
             {
                 "id": "4",
-                "name": "IH Rice Cooker"
+                "name": "IH电饭煲"
             },
             {
                 "id": "5",
-                "name": "Drum washing machine"
+                "name": "滚筒洗衣机"
             },
             {
                 "id": "6",
-                "name": "Electric water heater"
+                "name": "电热水器"
             }
         ],
         "floorBannerImg": [{

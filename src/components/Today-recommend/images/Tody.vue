@@ -5,7 +5,7 @@
                     <li class="clock">
                         <div class="time">
                             <img src="./images/home/clock.png" />
-                            <h3>Today's recommendations</h3>
+                            <h3>今日推荐</h3>
                         </div>
                     </li>
                     <li class="banner">

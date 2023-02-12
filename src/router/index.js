@@ -82,7 +82,7 @@ const router = new VueRouter({
       beforeEnter: (to, from, next) => {
         // 如果用户未登入就不能到个人中心,就跳转到登入页面
         if (!localStorage.getItem("userToken")) {
-          alert("Dear! Please login first!！");
+          alert("亲！请先登入哦！");
           //    如果你没登入就把要去的地方的路径存在路由中
           next("/login?redirect=" + to.path);
         } else {
@@ -128,7 +128,7 @@ const router = new VueRouter({
         if (from.path == "/ShopCart" && localStorage.getItem('userToken')) {
           next();
         } else {
-            alert('Please login first')
+            alert('请先登入')
         //   next(false);
         }
       },

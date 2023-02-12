@@ -7,7 +7,7 @@
         <div class="bread">
           <ul class="fl sui-breadcrumb">
             <li>
-              <a href="#">All results</a>
+              <a href="#">全部结果</a>
             </li>
           </ul>
           <ul class="fl sui-tag">
@@ -47,13 +47,13 @@
             <div class="navbar-inner filter">
               <ul class="sui-nav">
                 <li :class="{active:isOne}" @click="changeOrder('1')">
-                  <a href="#">Comprehensive
+                  <a href="#">综合
                     <img :src="isUrl" v-show="isOne">
                     
                   </a>
                 </li>
                 <li :class="{active:isTwo}" @click="changeOrder('2')">
-                  <a href="#">Price
+                  <a href="#">价格
                     <img :src="isUrl"  v-show="isTwo">
                     
                   </a>
@@ -85,22 +85,22 @@
                     <a
                       target="_blank"
                       href="item.html"
-                      title="Promotion information, the order will be free three months CIBN video membership card! [Xiaomi TV New 4A 58 Hot Reservation]"
+                      title="促销信息，下单即赠送三个月CIBN视频会员卡！【小米电视新品4A 58 火爆预约中】"
                       >{{ goods.title }}</a
                     >
                   </div>
                   <div class="commit">
-                    <i class="command">There has been<span>2000</span>person rating</i>
+                    <i class="command">已有<span>2000</span>人评价</i>
                   </div>
                   <div class="operate">
                     <a
                       href="success-cart.html"
                       target="_blank"
                       class="sui-btn btn-bordered btn-danger"
-                      >Add to Cart</a
+                      >加入购物车</a
                     >
                     <a href="javascript:void(0);" class="sui-btn btn-bordered"
-                      >Collection</a
+                      >收藏</a
                     >
                   </div>
                 </div>
