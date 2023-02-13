@@ -17,11 +17,11 @@
             <form>
               <div class="input-text clearFix">
                 <span></span>
-                <input type="text" placeholder="Email/Username/Mobile phone number" v-model="phone" v-focus>
+                <input type="text" placeholder="邮箱/用户名/手机号" v-model="phone" v-focus>
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
-                <input type="password" placeholder="Please enter your password" v-model="password">
+                <input type="password" placeholder="请输入密码" v-model="password">
               </div>
               <div class="setting clearFix">
                 <label class="checkbox inline">
@@ -105,7 +105,7 @@ export default {
         }
 
 
-        alert('Login successful！！！')
+        alert('登入成功！！！')
 
 
       } catch (error) {
