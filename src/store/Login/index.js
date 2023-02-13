@@ -1,5 +1,6 @@
 import { reqUserLogin, reqUserInfo, reqUserLogout } from "@/API";
 
+<<<<<<< HEAD
 const actions = {
     // Login request
     async userLogin(context, data) {
@@ -32,6 +33,42 @@ const actions = {
         } else {
             return Promise.reject(new Error('Logout failed'))
         }
+=======
+    import { reqUserLogin,reqUserInfo,reqUserLogout } from "@/API";
+const actions={
+    //登入请求
+   async userLogin(context,data){
+    console.log(data);
+      let res = await reqUserLogin(data)
+      console.log(res);
+      if(res.data.code == 200){
+        context.commit('USERLOGIN',res.data)
+        return 'ok'
+      }else{
+        return Promise.reject(new Error('The account password is wrong'))
+      }
+    },
+    //登入返回的用户信息
+   async getUserInfo({commit}){
+       let res = await reqUserInfo()
+       if(res.data.code==200){
+        commit('GETUSERINFO',res.data)
+        return 'ok'
+       }else{
+        return Promise.reject(new Error('Failed to return user information'))
+       }
+
+    },
+    // 退出登入的请求，通知mutations删除用户登入数据
+   async logout({commit}){
+      let res = await reqUserLogout()
+      if(res.data.code == 200){
+        commit('LOGOUT')
+        return 'ok'
+      }else{
+        return Promise.reject(new Error('Logout failed'))
+      }
+>>>>>>> 4a8e739ecb6df0468ce0be4c19758d94ca740163
     }
 }
 
