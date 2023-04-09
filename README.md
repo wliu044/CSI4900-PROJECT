@@ -1,41 +1,48 @@
-GMALL
+# GMALL
+
 GMALL is an e-commerce web application built with Node.js, Express.js, Vue.js, and Element UI. It allows users to browse and purchase a wide selection of products online, with features such as user authentication, product listings, shopping cart, and checkout.
 
-Features
-User authentication and authorization
-Product listings with filtering and sorting options
-Shopping cart with item quantity management and order total calculation
-Checkout process with personal and payment information entry
-Order history and details view
-Admin page for managing products and orders
-Installation
+## Features
+
+- User authentication and authorization
+- Product listings with filtering and sorting options
+- Shopping cart with item quantity management and order total calculation
+- Checkout process with personal and payment information entry
+- Order history and details view
+- Admin page for managing products and orders
+
+## Installation
+
 To install and run GMALL locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/your-username/gmall.git
-
+   ```bash
+   git clone https://github.com/your-username/gmall.git
 Install the dependencies:
 
+bash
+Copy code
 cd gmall
 npm install
 cd web-client
 npm install
-
 Set up the database:
 
 Create a MySQL database using the web-shop.sql script provided in the web-server folder.
 Update the config/database.js file with your database configuration.
 Start the server:
 
+bash
+Copy code
 cd web-server
 npm run dev
-
 Start the client:
 
+bash
+Copy code
 cd ../web-client
 npm run dev
-
 Open the application in your browser at http://localhost:8080.
 
 Folder Structure
@@ -55,5 +62,3 @@ routes: The route handlers for the project.
 src: The source code for the project.
 util: The utility functions for the project.
 views: The view templates for the project.
-Credits
-GMALL was developed by Wei Liu and Ruo Yan Xu as their honor project for CSI4900 at the University of Ottawa, under the supervision of Professor Stéphane Some.
