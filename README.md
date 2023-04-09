@@ -16,9 +16,6 @@ GMALL is an e-commerce web application built with Node.js, Express.js, Vue.js, a
 To install and run GMALL locally, follow these steps:
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/gmall.git
 Install the dependencies:
 
 
