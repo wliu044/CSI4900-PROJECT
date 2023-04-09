@@ -63,7 +63,3 @@ The GMALL project is organized into two main folders: `web-client` for the clien
 - `util`: The utility functions for the project.
 - `views`: The view templates for the project.
 
-## Credits
-
-GMALL was developed by Wei Liu and Ruo Yan Xu as their honor project for CSI4900 at the University of Ottawa, under the supervision of Professor Stéphane Some.
-
