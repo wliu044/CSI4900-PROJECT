@@ -21,8 +21,7 @@ To install and run GMALL locally, follow these steps:
    git clone https://github.com/your-username/gmall.git
 Install the dependencies:
 
-bash
-Copy code
+
 cd gmall
 npm install
 cd web-client
@@ -33,14 +32,12 @@ Create a MySQL database using the web-shop.sql script provided in the web-server
 Update the config/database.js file with your database configuration.
 Start the server:
 
-bash
-Copy code
+
 cd web-server
 npm run dev
 Start the client:
 
-bash
-Copy code
+
 cd ../web-client
 npm run dev
 Open the application in your browser at http://localhost:8080.
