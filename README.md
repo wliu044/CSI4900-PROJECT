@@ -1,4 +1,6 @@
 # GMALL
+![logo_transparent](https://user-images.githubusercontent.com/86115967/231182533-7180fcd9-3844-4fc9-a387-d56456991db0.png)
+
 
 GMALL is an e-commerce web application built with Node.js, Express.js, Vue.js, and Element UI. It allows users to browse and purchase a wide selection of products online, with features such as user authentication, product listings, shopping cart, and checkout.
 
